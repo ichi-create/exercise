@@ -4,7 +4,7 @@ $(function(){
   $('.choice1').click(function(){
     var answer = $(this).attr('id');
 
-    if (answer === "q1_1") {
+    if (answer === "q1_3") {
       $('.q1').hide(1000);
       $('.answer1_o').show();
       show = '.answer1_o'
@@ -50,7 +50,7 @@ $(function(){
   $('.choice3').click(function(){
     var answer = $(this).attr('id');
 
-    if (answer === "q3_2") {
+    if (answer === "q3_1") {
       $('.q3').hide(1000);
       $('.answer3_o').show();
       show = '.answer3_o'
@@ -73,7 +73,7 @@ $(function(){
   $('.choice4').click(function(){
     var answer = $(this).attr('id');
 
-    if (answer === "q4_4") {
+    if (answer === "q4_3") {
       $('.q4').hide(1000);
       $('.answer4_o').show();
       show = '.answer4_o'
@@ -119,7 +119,7 @@ $(function(){
   $('.choice6').click(function(){
     var answer = $(this).attr('id');
 
-    if (answer === "q6_2") {
+    if (answer === "q6_1") {
       $('.q6').hide(1000);
       $('.answer6_o').show();
       show = '.answer6_o'
@@ -142,7 +142,7 @@ $(function(){
   $('.choice7').click(function(){
     var answer = $(this).attr('id');
 
-    if (answer === "q7_2") {
+    if (answer === "q7_1") {
       $('.q7').hide(1000);
       $('.answer7_o').show();
       show = '.answer7_o'
@@ -165,7 +165,7 @@ $(function(){
   $('.choice8').click(function(){
     var answer = $(this).attr('id');
 
-    if (answer === "q8_4") {
+    if (answer === "q8_1") {
       $('.q8').hide(1000);
       $('.answer8_o').show();
       show = '.answer8_o'
@@ -188,7 +188,7 @@ $(function(){
   $('.choice9').click(function(){
     var answer = $(this).attr('id');
 
-    if (answer === "q9_2") {
+    if (answer === "q9_3") {
       $('.q9').hide(1000);
       $('.answer9_o').show();
       show = '.answer9_o'
