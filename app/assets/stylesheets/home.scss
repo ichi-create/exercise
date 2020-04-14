@@ -1,0 +1,90 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+*{
+  font-family: 'Arial' ;
+}
+.top_a {
+  color: black;
+  text-decoration: none;
+}
+.top {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.difficult {
+  height:30%;                  /* 高さ指定 */
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white ;
+    padding: 7px 20px;
+    background-image: linear-gradient(45deg, #FFC107 0%, #154BFF 100%);
+    border-bottom: solid 5px #627295;
+}
+
+.botton:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+
+.p1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.nomal {
+    height:30%;                  /* 高さ指定 */
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white ;
+    padding: 7px 20px;
+    background-image: linear-gradient(45deg, #D3FAFF 0%, #00E2FF 100%);
+    border-bottom: solid 5px #3f485d;
+}
+.p2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.easy {
+  height:30%;                  /* 高さ指定 */
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+  color: white ;
+  padding: 7px 20px;
+  background-image: linear-gradient(45deg, #D0FFCC 0%, #3EFF2E 100%);
+  border-bottom: solid 5px #45554b;
+}
+.p3 {
+  text-align: center;
+}
+footer {
+  position: absolute;
+  bottom: 0 ;
+  width: 100% ;
+  margin: 0 auto;
+}
+
+.copy {
+  text-align: center;
+  bottom: 0 ;
+  font-size: 20px;
+}
+
+.stayhome {
+  color: #ACB6E5;
+  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
